@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.gstatic.com/s/alegreyasans/v14/5aUu9_-1phKLFgshYDvh6Vwt5fFPqEd2i1dC.woff2');
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    margin-bottom:0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tireumafoto {
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+p {
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    width:100%;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-top:3rem;
+    margin-bottom:5rem;
+}
+
+h2{
+    color: #28401D;
+    font-family: 'Crete Round', serif;
+    font-size: 2rem;
+    margin-top:1rem;
+    align-self: center;
+}
+
+h3{
+
+    font-family: 'Crete Round', serif;
+    color: black;
+    font-size: 1.75rem;
+
+}
+
+h4{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-width: 0.15rem;
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Crete Round', serif;
+}
+
+body {
+    text-align: center;
+}
+
+strong {
+    font-size: 3rem;
+    font-family: 'Crete Round', serif;
+    color: #4B7338;
+    text-shadow: 0.1rem 0.2rem 0.15rem rgba(0,0,0,0.3);
+}
+
+img {
+    width: 45%;
+    margin-top:1.5rem; 
+    margin-bottom:0.5rem;
+  }
+
+.click {
+    font-family: 'Crete Round', serif;
+    align-self: center;
+    margin: 1rem;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #DEF2D5;
+    text-decoration: none;
+    background-color: #5F8C3F;
+}
+
+.fechar_menu {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 50%;
+    right: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.voltar{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.1rem;
+}
+
+header{
+    margin-bottom:3.5rem;
+}
+
+.restaurantes{
+    font-family: 'Crete Round', serif;
+    font-size: 2rem;
+    color: #28401D;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 0.12rem solid #28401D;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.icone{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin:0.1rem;
+    align-self: center;
+}
+
+.icone2{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin:0.1rem;
+    align-self: center;
+}
+
+.icone3{
+    width: 2.5rem;
+    height: 2rem;
+    margin:0.1rem;
+    align-self: center;
+}
+div{
+    align-items: center;
+    text-align: center;
+}
+
+.caixainput{
+    width: 20rem;
+    height: 2rem;
+    margin-bottom:0.5rem;
+}
+
+hr.new4 {
+    border: 1px solid #5F8C3F;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+textarea {
+    resize: none;
+}
